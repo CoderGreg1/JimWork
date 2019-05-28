@@ -1,0 +1,55 @@
+.input-container {
+    max-width: 170px;
+    width: 170px;
+    padding: 0;
+} 
+.table-container {
+    padding: 30px;
+    max-width: 900px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+ .input-field {
+    max-width: 70px;
+    margin: 0;
+} 
+.select-dropdown.dropdown-trigger {
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+}
+body {
+    background-color: #e0f7fa;
+}
+td {
+    font-size: 16px;
+}
+.berg1 {
+    max-width: 130px;
+}
+.berg3 {
+    max-width: 70px;
+}
+.button1 {
+    text-align: center;
+    margin-top: 10px;
+}
+h1 {
+    color: wheat;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    font-weight: bold;
+}
+
+input.waves-button-input {
+    color: white;
+}
+.buttonjim {
+    margin-left: 10px;
+}
+.buttonjim:hover {
+    background-color: darkgrey;
+    color: white;
+    cursor: pointer;
+}

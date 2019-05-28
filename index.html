@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" intergrity="sha384-1KuwvrZot6UHsBSfcM" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+    <title>Days generator</title>
+</head>
+<body>
+    <h1>Work Calculation</h1>
+    <div class="table-container z-depth-1">
+      <form id="myForm">
+    <table class="highlight">
+        <thead>
+          <tr>
+              <th>Name</th>
+              <th>Number of days worked weekly</th>
+              <th>Design</th>
+              <th>Development</th>
+              <th>Output</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Kieran</td>
+            <td class="input-container"><div class="input-field col s12">
+                <select>
+                  <option value="" selected>Days</option>
+                  <option value="5">5</option>
+                  <option value="4">4</option>
+                  <option value="3">3</option>
+                  <option value="2">2</option>
+                  <option value="1">1</option>
+                  <option value="0">0</option>
+                </select>
+              </div></td>
+                <td>
+                    <input type="number" placeholder="Enter number" name="quantity" id="a" class="berg1"> 
+                </td>
+                <td>
+                    <input type="number" placeholder="Enter number" name="quantity" id="b" class="berg1">
+                </td>
+
+                <td>
+                    <input type="number" placeholder="Output" name="output" id="correctinput" class="berg3">
+                    <input type="button" class="buttonjim" onclick="sum()" value="sum"/>
+                </td>
+          </tr>
+          <tr>
+            <td>Kevin</td>
+            <td class="input-container"><div class="input-field col s12">
+                <select>
+                  <option value="" selected>Days</option>
+                  <option value="5">5</option>
+                  <option value="4">4</option>
+                  <option value="3">3</option>
+                  <option value="2">2</option>
+                  <option value="1">1</option>
+                  <option value="0">0</option>
+                </select>
+              </div></td>
+              <td>
+                <input type="number" placeholder="Enter number" name="quantity" id="c" class="berg1">  
+            </td>
+            <td>
+                <input type="number" placeholder="Enter number" name="quantity" id="d" class="berg1"> 
+            </td>
+            <td>
+              <input type="number" placeholder="Output" name="output" class="berg3">
+              <input type="button" class="buttonjim" onclick="sum1()" value="sum"/>
+            </td>
+          </tr>
+          <tr>
+            <td>Dee</td>
+            <td class="input-container"><div class="input-field col s12">
+                <select>
+                    <option value="" selected>Days</option>
+                    <option value="5">5</option>
+                    <option value="4">4</option>
+                    <option value="3">3</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                    <option value="0">0</option>
+                </select>
+              </div></td>
+              <td>
+                <input type="number" placeholder="Enter number" name="quantity" id="e" class="berg1">  
+            </td>
+            <td>
+                <input type="number" placeholder="Enter number" name="quantity" id="f" class="berg1"> 
+            </td>
+            <td>
+              <input type="number" placeholder="Output" name="output" class="berg3">
+              <input type="button" class="buttonjim" onclick="sum2()" value="sum"/>
+            </td>
+          </tr>
+          <tr>
+            <td>Jim</td>
+            <td class="input-container"><div class="input-field col s12">
+                <select>
+                    <option value="" selected>Days</option>
+                    <option value="5">5</option>
+                    <option value="4">4</option>
+                    <option value="3">3</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                    <option value="0">0</option>
+                </select>
+              </div></td>
+              <td>
+                <input type="number" placeholder="Enter number" name="quantity" id="g" class="berg1">  
+            </td>
+            <td>
+                <input type="number" placeholder="Enter number" name="quantity" id="h" class="berg1"> 
+            </td>
+            <td>
+              <input type="number" placeholder="Output" name="output" class="berg3">
+              <input type="button" class="buttonjim" onclick="sum3()" value="sum"/>
+            </td>
+          </tr>
+          <tr>
+            <td>Henry</td>
+            <td class="input-container"><div class="input-field col s12">
+                <select>
+                    <option value="" selected>Days</option>
+                    <option value="5">5</option>
+                    <option value="4">4</option>
+                    <option value="3">3</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                    <option value="0">0</option>
+                </select>
+              </div></td>
+              <td>
+                <input type="number" placeholder="Enter number" name="quantity" id="i" class="berg1"> 
+            </td>
+            <td>
+                <input type="number" placeholder="Enter number" name="quantity" id="j" class="berg1"> 
+            </td>
+            <td>
+              <input type="number" placeholder="Output" name="output" class="berg3">
+              <input type="button" class="buttonjim" onclick="sum4()" value="sum"/>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script><script src="main.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
