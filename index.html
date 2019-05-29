@@ -9,44 +9,45 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./style.css">
-
     <title>Days generator</title>
 </head>
 <body>
     <h1>Work Calculation</h1>
+    <p class="explain"> "+" = more work should be set <br/>
+      "-" = too much work has been set
+    </p>
     <div class="table-container z-depth-1">
       <form id="myForm">
     <table class="highlight">
         <thead>
           <tr>
-              <th>Name</th>
-              <th>Number of days worked weekly</th>
-              <th>Design</th>
-              <th>Development</th>
-              <th>Output</th>
+              <th><i class="material-icons icon12">person</i><br/>Name</th>
+              <th><i class="material-icons icon12">work</i><br/>Number of days worked weekly</th>
+              <th><i class="material-icons icon12">brush</i><br/>Design</th>
+              <th><i class="material-icons icon12">build</i><br/>Development</th>
+              <th><i class="material-icons icon12">cached</i><br/>Output</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Kieran</td>
+            <td>Jim</td>
             <td class="input-container"><div class="input-field col s12">
-                <select>
-                  <option value="" selected>Days</option>
-                  <option value="5">5</option>
+              <select class="block">
+                  <option value="">Days</option>
+                  <option value="5" selected>5</option>
                   <option value="4">4</option>
                   <option value="3">3</option>
                   <option value="2">2</option>
                   <option value="1">1</option>
                   <option value="0">0</option>
-                </select>
-              </div></td>
+              </select>
+            </div></td>
                 <td>
                     <input type="number" placeholder="Enter number" name="quantity" id="a" class="berg1"> 
                 </td>
                 <td>
                     <input type="number" placeholder="Enter number" name="quantity" id="b" class="berg1">
                 </td>
-
                 <td>
                     <input type="number" placeholder="Output" name="output" id="correctinput" class="berg3">
                     <input type="button" class="buttonjim" onclick="sum()" value="sum"/>
@@ -55,16 +56,16 @@
           <tr>
             <td>Kevin</td>
             <td class="input-container"><div class="input-field col s12">
-                <select>
-                  <option value="" selected>Days</option>
-                  <option value="5">5</option>
+              <select class="block">
+                  <option value="">Days</option>
+                  <option value="5" selected>5</option>
                   <option value="4">4</option>
                   <option value="3">3</option>
                   <option value="2">2</option>
                   <option value="1">1</option>
                   <option value="0">0</option>
-                </select>
-              </div></td>
+              </select>
+            </div></td>
               <td>
                 <input type="number" placeholder="Enter number" name="quantity" id="c" class="berg1">  
             </td>
@@ -79,16 +80,16 @@
           <tr>
             <td>Dee</td>
             <td class="input-container"><div class="input-field col s12">
-                <select>
-                    <option value="" selected>Days</option>
-                    <option value="5">5</option>
-                    <option value="4">4</option>
-                    <option value="3">3</option>
-                    <option value="2">2</option>
-                    <option value="1">1</option>
-                    <option value="0">0</option>
-                </select>
-              </div></td>
+              <select class="block">
+                  <option value="">Days</option>
+                  <option value="5" selected>5</option>
+                  <option value="4">4</option>
+                  <option value="3">3</option>
+                  <option value="2">2</option>
+                  <option value="1">1</option>
+                  <option value="0">0</option>
+              </select>
+            </div></td>
               <td>
                 <input type="number" placeholder="Enter number" name="quantity" id="e" class="berg1">  
             </td>
@@ -101,18 +102,18 @@
             </td>
           </tr>
           <tr>
-            <td>Jim</td>
+            <td>Kieran</td>
             <td class="input-container"><div class="input-field col s12">
-                <select>
-                    <option value="" selected>Days</option>
-                    <option value="5">5</option>
-                    <option value="4">4</option>
-                    <option value="3">3</option>
-                    <option value="2">2</option>
-                    <option value="1">1</option>
-                    <option value="0">0</option>
-                </select>
-              </div></td>
+              <select class="block">
+                  <option value="">Days</option>
+                  <option value="5" selected>5</option>
+                  <option value="4">4</option>
+                  <option value="3">3</option>
+                  <option value="2">2</option>
+                  <option value="1">1</option>
+                  <option value="0">0</option>
+              </select>
+            </div></td>
               <td>
                 <input type="number" placeholder="Enter number" name="quantity" id="g" class="berg1">  
             </td>
@@ -127,16 +128,16 @@
           <tr>
             <td>Henry</td>
             <td class="input-container"><div class="input-field col s12">
-                <select>
-                    <option value="" selected>Days</option>
-                    <option value="5">5</option>
-                    <option value="4">4</option>
-                    <option value="3">3</option>
-                    <option value="2">2</option>
-                    <option value="1">1</option>
-                    <option value="0">0</option>
-                </select>
-              </div></td>
+              <select class="block">
+                  <option value="">Days</option>
+                  <option value="5" selected>5</option>
+                  <option value="4">4</option>
+                  <option value="3">3</option>
+                  <option value="2">2</option>
+                  <option value="1">1</option>
+                  <option value="0">0</option>
+              </select>
+            </div></td>
               <td>
                 <input type="number" placeholder="Enter number" name="quantity" id="i" class="berg1"> 
             </td>

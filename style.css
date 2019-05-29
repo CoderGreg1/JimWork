@@ -1,6 +1,5 @@
 .input-container {
-    max-width: 170px;
-    width: 170px;
+    width: 250px;
     padding: 0;
 } 
 .table-container {
@@ -40,8 +39,8 @@ h1 {
     text-shadow: 2px 2px 5px black;
     text-align: center;
     font-weight: bold;
+    letter-spacing: 1px;
 }
-
 input.waves-button-input {
     color: white;
 }
@@ -52,4 +51,14 @@ input.waves-button-input {
     background-color: darkgrey;
     color: white;
     cursor: pointer;
+}
+.explain {
+    text-align: center;
+    font-weight: bold;
+}
+.block {
+    display: block;
+}
+.icon12 {
+    color: darkorange;
 }

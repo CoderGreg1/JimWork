@@ -20,16 +20,42 @@ function sum()
 {
     setValues();
     result = a+b;
-    alert("The sum is equal to "+result);
-    
-    if (result > 5){
-        alert("Too many projects to do");
+        alert("The sum is equal to "+result);
+    if (result == 10){
+        alert("-5");
     }
-    if (result < 5){
-        alert("Need more projects to do");
+    if (result == 9){
+        alert("-4");
+    }
+    if (result == 8){
+        alert("-3");
+    }
+    if (result == 7){
+        alert("-2");
+    }
+    if (result == 6){
+        alert("-1");
     }
     if (result == 5){
         alert("Perfect amount of work");
+    }
+    if (result == 4){
+        alert("+1");
+    }
+    if (result == 3){
+        alert("+2");
+    }
+    if (result == 2){
+        alert("+3");
+    }
+    if (result == 1){
+        alert("+4");
+    }
+    if (result == 0){
+        alert("+5");
+    }
+    if (result > 10){
+        alert("TOO MANY PROJECTS TO DO!");
     }
 }
 function sum1()
@@ -38,14 +64,41 @@ function sum1()
     result = c+d;
     alert("The sum is equal to "+result);
    
-    if (result > 5){
-        alert("Too many projects to do");
+    if (result == 10){
+        alert("-5");
     }
-    if (result < 5){
-        alert("Need more projects to do");
+    if (result == 9){
+        alert("-4");
+    }
+    if (result == 8){
+        alert("-3");
+    }
+    if (result == 7){
+        alert("-2");
+    }
+    if (result == 6){
+        alert("-1");
     }
     if (result == 5){
         alert("Perfect amount of work");
+    }
+    if (result == 4){
+        alert("+1");
+    }
+    if (result == 3){
+        alert("+2");
+    }
+    if (result == 2){
+        alert("+3");
+    }
+    if (result == 1){
+        alert("+4");
+    }
+    if (result == 0){
+        alert("+5");
+    }
+    if (result > 10){
+        alert("TOO MANY PROJECTS TO DO!");
     }
 }
 function sum2()
@@ -54,14 +107,41 @@ function sum2()
     result = e+f;
     alert("The sum is equal to "+result);
 
-    if (result > 5){
-        alert("Too many projects to do");
+    if (result == 10){
+        alert("-5");
     }
-    if (result < 5){
-        alert("Need more projects to do");
+    if (result == 9){
+        alert("-4");
+    }
+    if (result == 8){
+        alert("-3");
+    }
+    if (result == 7){
+        alert("-2");
+    }
+    if (result == 6){
+        alert("-1");
     }
     if (result == 5){
         alert("Perfect amount of work");
+    }
+    if (result == 4){
+        alert("+1");
+    }
+    if (result == 3){
+        alert("+2");
+    }
+    if (result == 2){
+        alert("+3");
+    }
+    if (result == 1){
+        alert("+4");
+    }
+    if (result == 0){
+        alert("+5");
+    }
+    if (result > 10){
+        alert("TOO MANY PROJECTS TO DO!");
     }
 }
 function sum3()
@@ -70,14 +150,41 @@ function sum3()
     result = g+h;
     alert("The sum is equal to "+result);
     
-    if (result > 5){
-        alert("Too many projects to do");
+    if (result == 10){
+        alert("-5");
     }
-    if (result < 5){
-        alert("Need more projects to do");
+    if (result == 9){
+        alert("-4");
+    }
+    if (result == 8){
+        alert("-3");
+    }
+    if (result == 7){
+        alert("-2");
+    }
+    if (result == 6){
+        alert("-1");
     }
     if (result == 5){
         alert("Perfect amount of work");
+    }
+    if (result == 4){
+        alert("+1");
+    }
+    if (result == 3){
+        alert("+2");
+    }
+    if (result == 2){
+        alert("+3");
+    }
+    if (result == 1){
+        alert("+4");
+    }
+    if (result == 0){
+        alert("+5");
+    }
+    if (result > 10){
+        alert("TOO MANY PROJECTS TO DO!");
     }
 }
 function sum4()
@@ -86,14 +193,41 @@ function sum4()
     result = i+j;
     alert("The sum is equal to "+result);
 
-    if (result > 5){
-        alert("Too many projects to do");
+    if (result == 10){
+        alert("-5");
     }
-    if (result < 5){
-        alert("Need more projects to do");
+    if (result == 9){
+        alert("-4");
+    }
+    if (result == 8){
+        alert("-3");
+    }
+    if (result == 7){
+        alert("-2");
+    }
+    if (result == 6){
+        alert("-1");
     }
     if (result == 5){
-        alert("Perfect amount of work set");
+        alert("Perfect amount of work");
+    }
+    if (result == 4){
+        alert("+1");
+    }
+    if (result == 3){
+        alert("+2");
+    }
+    if (result == 2){
+        alert("+3");
+    }
+    if (result == 1){
+        alert("+4");
+    }
+    if (result == 0){
+        alert("+5");
+    }
+    if (result > 10){
+        alert("TOO MANY PROJECTS TO DO!");
     }
 }
 
