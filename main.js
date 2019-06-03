@@ -20,39 +20,40 @@ function sum()
 {
     setValues();
     result = a+b;
-        alert("The sum is equal to "+result);
+        document.getElementById("correctinput").value = result;
+    
     if (result == 10){
-        alert("-5");
+        document.getElementById("correctoutput").value = ("-5");
     }
     if (result == 9){
-        alert("-4");
+        document.getElementById("correctoutput").value = ("-4");
     }
     if (result == 8){
-        alert("-3");
+        document.getElementById("correctoutput").value = ("-3");
     }
     if (result == 7){
-        alert("-2");
+        document.getElementById("correctoutput").value = ("-2");
     }
     if (result == 6){
-        alert("-1");
+        document.getElementById("correctoutput").value = ("-1");
     }
     if (result == 5){
-        alert("Perfect amount of work");
-    }
+        document.getElementById("correctoutput").value = ("0");
+        }
     if (result == 4){
-        alert("+1");
+        document.getElementById("correctoutput").value = ("1");
     }
     if (result == 3){
-        alert("+2");
+        document.getElementById("correctoutput").value = ("2");
     }
     if (result == 2){
-        alert("+3");
+        document.getElementById("correctoutput").value = ("3");
     }
     if (result == 1){
-        alert("+4");
+        document.getElementById("correctoutput").value = ("4");
     }
     if (result == 0){
-        alert("+5");
+        document.getElementById("correctoutput").value = ("5");
     }
     if (result > 10){
         alert("TOO MANY PROJECTS TO DO!");
@@ -62,40 +63,40 @@ function sum1()
 {
     setValues();
     result = c+d;
-    alert("The sum is equal to "+result);
-   
+    document.getElementById("correctinput2").value = result;
+    
     if (result == 10){
-        alert("-5");
+        document.getElementById("correctoutput2").value = ("-5");
     }
     if (result == 9){
-        alert("-4");
+        document.getElementById("correctoutput2").value = ("-4");
     }
     if (result == 8){
-        alert("-3");
+        document.getElementById("correctoutput2").value = ("-3");
     }
     if (result == 7){
-        alert("-2");
+        document.getElementById("correctoutput2").value = ("-2");
     }
     if (result == 6){
-        alert("-1");
+        document.getElementById("correctoutput2").value = ("-1");
     }
     if (result == 5){
-        alert("Perfect amount of work");
-    }
+        document.getElementById("correctoutput2").value = ("0");
+        }
     if (result == 4){
-        alert("+1");
+        document.getElementById("correctoutput2").value = ("1");
     }
     if (result == 3){
-        alert("+2");
+        document.getElementById("correctoutput2").value = ("2");
     }
     if (result == 2){
-        alert("+3");
+        document.getElementById("correctoutput2").value = ("3");
     }
     if (result == 1){
-        alert("+4");
+        document.getElementById("correctoutput2").value = ("4");
     }
     if (result == 0){
-        alert("+5");
+        document.getElementById("correctoutput2").value = ("5");
     }
     if (result > 10){
         alert("TOO MANY PROJECTS TO DO!");
@@ -105,40 +106,40 @@ function sum2()
 {
     setValues();
     result = e+f;
-    alert("The sum is equal to "+result);
-
+    document.getElementById("correctinput3").value = result;
+    
     if (result == 10){
-        alert("-5");
+        document.getElementById("correctoutput3").value = ("-5");
     }
     if (result == 9){
-        alert("-4");
+        document.getElementById("correctoutput3").value = ("-4");
     }
     if (result == 8){
-        alert("-3");
+        document.getElementById("correctoutput3").value = ("-3");
     }
     if (result == 7){
-        alert("-2");
+        document.getElementById("correctoutput3").value = ("-2");
     }
     if (result == 6){
-        alert("-1");
+        document.getElementById("correctoutput3").value = ("-1");
     }
     if (result == 5){
-        alert("Perfect amount of work");
+        document.getElementById("correctoutput3").value = ("0");
     }
     if (result == 4){
-        alert("+1");
+        document.getElementById("correctoutput3").value = ("1");
     }
     if (result == 3){
-        alert("+2");
+        document.getElementById("correctoutput3").value = ("2");
     }
     if (result == 2){
-        alert("+3");
+        document.getElementById("correctoutput3").value = ("3");
     }
     if (result == 1){
-        alert("+4");
+        document.getElementById("correctoutput3").value = ("4");
     }
     if (result == 0){
-        alert("+5");
+        document.getElementById("correctoutput3").value = ("5");
     }
     if (result > 10){
         alert("TOO MANY PROJECTS TO DO!");
@@ -148,40 +149,40 @@ function sum3()
 {
     setValues();
     result = g+h;
-    alert("The sum is equal to "+result);
+    document.getElementById("correctinput4").value = result;
     
     if (result == 10){
-        alert("-5");
+        document.getElementById("correctoutput4").value = ("-5");
     }
     if (result == 9){
-        alert("-4");
+        document.getElementById("correctoutput4").value = ("-4");
     }
     if (result == 8){
-        alert("-3");
+        document.getElementById("correctoutput4").value = ("-3");
     }
     if (result == 7){
-        alert("-2");
+        document.getElementById("correctoutput4").value = ("-2");
     }
     if (result == 6){
-        alert("-1");
+        document.getElementById("correctoutput4").value = ("-1");
     }
     if (result == 5){
-        alert("Perfect amount of work");
+        document.getElementById("correctoutput4").value = ("0");
     }
     if (result == 4){
-        alert("+1");
+        document.getElementById("correctoutput4").value = ("1");
     }
     if (result == 3){
-        alert("+2");
+        document.getElementById("correctoutput4").value = ("2");
     }
     if (result == 2){
-        alert("+3");
+        document.getElementById("correctoutput4").value = ("3");
     }
     if (result == 1){
-        alert("+4");
+        document.getElementById("correctoutput4").value = ("4");
     }
     if (result == 0){
-        alert("+5");
+        document.getElementById("correctoutput4").value = ("5");
     }
     if (result > 10){
         alert("TOO MANY PROJECTS TO DO!");
@@ -191,40 +192,40 @@ function sum4()
 {
     setValues();
     result = i+j;
-    alert("The sum is equal to "+result);
-
+    document.getElementById("correctinput5").value = result;
+    
     if (result == 10){
-        alert("-5");
+        document.getElementById("correctoutput5").value = ("-5");
     }
     if (result == 9){
-        alert("-4");
+        document.getElementById("correctoutput5").value = ("-4");
     }
     if (result == 8){
-        alert("-3");
+        document.getElementById("correctoutput5").value = ("-3");
     }
     if (result == 7){
-        alert("-2");
+        document.getElementById("correctoutput5").value = ("-2");
     }
     if (result == 6){
-        alert("-1");
+        document.getElementById("correctoutput5").value = ("-1");
     }
     if (result == 5){
-        alert("Perfect amount of work");
+        document.getElementById("correctoutput5").value = ("0");
     }
     if (result == 4){
-        alert("+1");
+        document.getElementById("correctoutput5").value = ("1");
     }
     if (result == 3){
-        alert("+2");
+        document.getElementById("correctoutput5").value = ("2");
     }
     if (result == 2){
-        alert("+3");
+        document.getElementById("correctoutput5").value = ("3");
     }
     if (result == 1){
-        alert("+4");
+        document.getElementById("correctoutput5").value = ("4");
     }
     if (result == 0){
-        alert("+5");
+        document.getElementById("correctoutput5").value = ("5");
     }
     if (result > 10){
         alert("TOO MANY PROJECTS TO DO!");

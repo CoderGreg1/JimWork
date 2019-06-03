@@ -1,5 +1,8 @@
+* {
+    box-sizing: border-box;
+}
 .input-container {
-    width: 250px;
+    width: 320px;
     padding: 0;
 } 
 .table-container {
@@ -46,6 +49,8 @@ input.waves-button-input {
 }
 .buttonjim {
     margin-left: 10px;
+    background-color: white;
+    color: black;
 }
 .buttonjim:hover {
     background-color: darkgrey;
@@ -61,4 +66,14 @@ input.waves-button-input {
 }
 .icon12 {
     color: darkorange;
+}
+.testimg {
+    width:45px;
+    height:45px;
+    margin-right: 5px;
+    border-radius: 5%;
+}
+.punderh {
+    text-align: center;
+    font-weight: bold;
 }

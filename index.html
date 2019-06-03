@@ -13,8 +13,9 @@
 </head>
 <body>
     <h1>Work Calculation</h1>
-    <p class="explain"> "+" = more work should be set <br/>
-      "-" = too much work has been set
+    <p  class="punderh">
+      the total calculation of "Design" and "Development" should add up to a
+       sum of 5 to be the perfect amount of work to do for the week.
     </p>
     <div class="table-container z-depth-1">
       <form id="myForm">
@@ -25,12 +26,13 @@
               <th><i class="material-icons icon12">work</i><br/>Number of days worked weekly</th>
               <th><i class="material-icons icon12">brush</i><br/>Design</th>
               <th><i class="material-icons icon12">build</i><br/>Development</th>
-              <th><i class="material-icons icon12">cached</i><br/>Output</th>
+              <th><i class="material-icons icon12">add</i><br/>Sum</th>
+              <th><i class="material-icons icon12">event_note</i></br>Remainder</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Jim</td>
+            <td class="imgworkers"> <img class="testimg" src="https://media.licdn.com/dms/image/C5603AQHyHMTAqB0u4w/profile-displayphoto-shrink_800_800/0?e=1564617600&v=beta&t=6w5lcOFFdZu0BP4q7jJLIeFO30aS-DXjF5kHvImGbnw">Jim</td>
             <td class="input-container"><div class="input-field col s12">
               <select class="block">
                   <option value="">Days</option>
@@ -43,19 +45,24 @@
               </select>
             </div></td>
                 <td>
-                    <input type="number" placeholder="Enter number" name="quantity" id="a" class="berg1"> 
+                    <input type="number" placeholder="Enter a num" name="quantity" id="a" class="berg1"> 
                 </td>
                 <td>
-                    <input type="number" placeholder="Enter number" name="quantity" id="b" class="berg1">
+                    <input type="number" placeholder="Enter a num" name="quantity" id="b" class="berg1">
                 </td>
                 <td>
-                    <input type="number" placeholder="Output" name="output" id="correctinput" class="berg3">
+                    <input type="number" placeholder="Sum" name="output" id="correctinput" class="berg3">
+                </td>
+                <td>
+                    <input type="number" placeholder="Remainder" name="output" id="correctoutput" class="berg3">
+                </td>
+                <td>
                     <input type="button" class="buttonjim" onclick="sum()" value="sum"/>
                 </td>
           </tr>
           <tr>
-            <td>Kevin</td>
-            <td class="input-container"><div class="input-field col s12">
+              <td class="imgworkers"> <img class="testimg" src="https://fuse.fuseuniversal.com/media/W1siZiIsIjIwMTgvMDkvMTMvMDgvNDgvNDMvZjhlMTNmODgtYTY5ZC00ODQ1LThmY2ItMWYwYWY0NzBlZDZkL1NjcmVlbiBTaG90IDIwMTgtMDktMTMgYXQgMDkuNDEuMTEucG5nIl0sWyJwIiwidGh1bWIiLCIyMDB4MjAwIyJdXQ?sha=b428fccef796d705">Kevin</td>
+              <td class="input-container"><div class="input-field col s12">
               <select class="block">
                   <option value="">Days</option>
                   <option value="5" selected>5</option>
@@ -67,18 +74,23 @@
               </select>
             </div></td>
               <td>
-                <input type="number" placeholder="Enter number" name="quantity" id="c" class="berg1">  
+                <input type="number" placeholder="Enter a num" name="quantity" id="c" class="berg1">  
             </td>
             <td>
-                <input type="number" placeholder="Enter number" name="quantity" id="d" class="berg1"> 
+                <input type="number" placeholder="Enter a num" name="quantity" id="d" class="berg1"> 
             </td>
             <td>
-              <input type="number" placeholder="Output" name="output" class="berg3">
+              <input type="number" placeholder="Sum" name="output" id="correctinput2" class="berg3">
+              </td>
+              <td>
+                  <input type="number" placeholder="Remainder" name="output" id="correctoutput2" class="berg3">
+              </td>
+              <td>
               <input type="button" class="buttonjim" onclick="sum1()" value="sum"/>
-            </td>
+              </td>
           </tr>
           <tr>
-            <td>Dee</td>
+            <td class="imgworkers"> <img class="testimg" src="https://media.licdn.com/dms/image/C5603AQG-6J8CTKUZpA/profile-displayphoto-shrink_800_800/0?e=1564617600&v=beta&t=34cIR2P_oRiywvNnqvL0WiyNU8J01jUt9K5lKfU4BVI">Dee</td>
             <td class="input-container"><div class="input-field col s12">
               <select class="block">
                   <option value="">Days</option>
@@ -91,18 +103,23 @@
               </select>
             </div></td>
               <td>
-                <input type="number" placeholder="Enter number" name="quantity" id="e" class="berg1">  
+                <input type="number" placeholder="Enter a num" name="quantity" id="e" class="berg1">  
             </td>
             <td>
-                <input type="number" placeholder="Enter number" name="quantity" id="f" class="berg1"> 
+                <input type="number" placeholder="Enter a num" name="quantity" id="f" class="berg1"> 
             </td>
             <td>
-              <input type="number" placeholder="Output" name="output" class="berg3">
+              <input type="number" placeholder="Sum" name="output" id="correctinput3" class="berg3">
+            </td>
+            <td>
+                <input type="number" placeholder="Remainder" name="output" id="correctoutput3" class="berg3">
+            </td>
+            <td>
               <input type="button" class="buttonjim" onclick="sum2()" value="sum"/>
             </td>
           </tr>
           <tr>
-            <td>Kieran</td>
+              <td class="imgworkers"> <img class="testimg" src="https://media.licdn.com/dms/image/C4D03AQHR1KEvjR53-Q/profile-displayphoto-shrink_800_800/0?e=1564617600&v=beta&t=Xc5BelR1ExB9l-eu48EQMGiiumjxptrZetGZwL-tjFE">Kieran</td>
             <td class="input-container"><div class="input-field col s12">
               <select class="block">
                   <option value="">Days</option>
@@ -114,20 +131,25 @@
                   <option value="0">0</option>
               </select>
             </div></td>
-              <td>
-                <input type="number" placeholder="Enter number" name="quantity" id="g" class="berg1">  
+            <td>
+                <input type="number" placeholder="Enter a num" name="quantity" id="g" class="berg1">  
             </td>
             <td>
-                <input type="number" placeholder="Enter number" name="quantity" id="h" class="berg1"> 
+                <input type="number" placeholder="Enter a num" name="quantity" id="h" class="berg1"> 
             </td>
             <td>
-              <input type="number" placeholder="Output" name="output" class="berg3">
+              <input type="number" placeholder="Sum" name="output" id="correctinput4" class="berg3">
+            </td>
+            <td>
+                <input type="number" placeholder="Remainder" name="output" id="correctoutput4" class="berg3">
+            </td>
+            <td>
               <input type="button" class="buttonjim" onclick="sum3()" value="sum"/>
             </td>
           </tr>
           <tr>
-            <td>Henry</td>
-            <td class="input-container"><div class="input-field col s12">
+              <td class="imgworkers"> <img class="testimg" src="https://fuse.fuseuniversal.com/media/W1siZiIsIjIwMTgvMTIvMTMvMTEvMzAvMTQvODliNzMzZWQtMTVjZS00YmZmLWJhNWYtNjhkYzdhY2MzZjg1L1NjcmVlbnNob3QgMjAxOC0xMi0xMyBhdCAxMS4xOC4wNS5wbmciXSxbInAiLCJ0aHVtYiIsIjIwMHgyMDAjIl1d?sha=7e41290b2152ad8e">Henry</td>
+              <td class="input-container"><div class="input-field col s12">
               <select class="block">
                   <option value="">Days</option>
                   <option value="5" selected>5</option>
@@ -138,14 +160,19 @@
                   <option value="0">0</option>
               </select>
             </div></td>
-              <td>
-                <input type="number" placeholder="Enter number" name="quantity" id="i" class="berg1"> 
+            <td>
+                <input type="number" placeholder="Enter a num" name="quantity" id="i" class="berg1">  
             </td>
             <td>
-                <input type="number" placeholder="Enter number" name="quantity" id="j" class="berg1"> 
+                <input type="number" placeholder="Enter a num" name="quantity" id="j" class="berg1"> 
             </td>
             <td>
-              <input type="number" placeholder="Output" name="output" class="berg3">
+                <input type="number" placeholder="Sum" name="output" id="correctinput5" class="berg3">
+            </td>
+            <td>
+                <input type="number" placeholder="Remainder" name="output" id="correctoutput5" class="berg3">
+            </td>
+            <td>
               <input type="button" class="buttonjim" onclick="sum4()" value="sum"/>
             </td>
           </tr>
